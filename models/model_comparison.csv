@@ -1,0 +1,8 @@
+Model,Train_R2,Test_R2,Test_RMSE
+"XGBoost (tuned: n=300, depth=4, lr=0.05)",0.9986,0.8483,1.9773
+XGBoost (default),1.0,0.7921,2.3147
+Linear Regression,0.9056,0.7769,2.3981
+Ridge Regression (alpha=0.1),0.9056,0.7768,2.3985
+"LightGBM (tuned: n=300, depth=5, lr=0.05)",0.9114,0.693,2.8129
+LightGBM (default),0.9027,0.6836,2.8558
+Random Forest (n_estimators=100),0.9825,0.4845,3.6452
